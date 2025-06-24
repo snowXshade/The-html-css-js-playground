@@ -2,7 +2,7 @@
 
 This repository showcases my personal journey in learning frontend web development using HTML, CSS, and JavaScript. It includes small, self-contained projects that focus on improving layout, design, and interactivity skills.
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -10,20 +10,20 @@ This repository showcases my personal journey in learning frontend web developme
 - CSS3
 - JavaScript (Vanilla)
 
----
+
 
 ## 📂 Projects
 
 - `01-todo-list/` — A simple to-do list app with add, complete, and delete functionality.
 
----
+
 
 ## 📌 Notes
 
 - Frontend-only projects (no backend).
 - More mini-projects will be added as I learn.
 
----
+
 
 ## 🌐 Live Demo
 
