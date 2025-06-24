@@ -78,3 +78,7 @@ justify-content: center;
     list-style-type: none;
     font-size: 17px;
 }
+
+#list{
+    display: block;
+}

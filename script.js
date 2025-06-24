@@ -7,6 +7,8 @@ function addTask() {
 inputValue = input.value;
 // console.log(inputValue);
 
+list.style.display = "none";
+
 var li = document.createElement("li");
 li.textContent = inputValue;
 
