@@ -10,6 +10,7 @@ body {
     width: 100%;
     background-color: #272727;
     color: white;
+    height: 100vh;
 }
 
 /* heading */
@@ -57,7 +58,7 @@ body {
 
 .btn:hover{
     background-color: rgb(255, 136, 0);
-    transition: 1.2s;
+    transition: 0.3s;
 }
 
 /* list decore */
@@ -81,4 +82,16 @@ justify-content: center;
 
 #list{
     display: block;
+}
+
+.test{
+    position: relative;
+    text-decoration: none;
+    bottom: -45%;
+    left: 85%;
+    color: rgb(175, 175, 175);
+    text-transform: uppercase;
+}
+.test:hover{
+    color: rgb(255, 166, 0);
 }
