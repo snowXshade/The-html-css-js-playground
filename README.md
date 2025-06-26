@@ -1,41 +1,34 @@
-# The Frontend Learning Journey 🚀
+# Frontend Practice Projects 🚀
 
-This repository is a collection of my personal frontend experiments, practice projects, and mini-web apps. It serves as a portfolio and logbook as I improve my skills in HTML, CSS, and JavaScript.
-
-
-
-## 🛠️ Technologies
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
+This repository showcases my personal journey in learning frontend web development using HTML, CSS, and JavaScript. It includes small, self-contained projects that focus on improving layout, design, and interactivity skills.
 
 
 
-## 📂 Structure
+## 🛠️ Technologies Used
 
-This repo will evolve over time. Initially, I plan to include:
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-- `01-html-css-basics/` — Static pages to practice layout and design
-- `02-responsive-design/` — Experiments with Flexbox, Grid, and media queries
-- `03-javascript-fundamentals/` — Interactive UI components
-- `04-mini-projects/` — Small frontend-only apps (like to-do, calculator, etc.)
+
+
+## 📂 Projects
+
+- `01-todo-list/` — A simple to-do list app with add, complete, and delete functionality.
 
 
 
 ## 📌 Notes
 
-- This is a **frontend-only** repository.
-- Backend development will be handled in a separate repository.
-- The goal is consistent learning, experimentation, and growth.
+- Frontend-only projects (no backend).
+- More mini-projects will be added as I learn.
 
 
 
-## ✨ Upcoming
+## 🌐 Live Demo
 
-- Dark/light mode switcher
-- CSS animations and transitions
-- Single Page Apps with vanilla JS
+➡️ [View To-Do List on GitHub Pages](https://snowxshade.github.io/The-html-css-js-playground/)  
+
 
 
 
