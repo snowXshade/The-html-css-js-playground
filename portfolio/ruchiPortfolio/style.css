@@ -19,10 +19,12 @@
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 body {
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -124,6 +126,31 @@ html:focus-within {
     .flex {
         flex-wrap: wrap;
     }
+    h1,
+.h1 {
+    font-size: var(--step-3);
+}
+
+h2,
+.h2 {
+    font-size: var(--step-2);
+}
+
+h3,
+.h3 {
+    font-size: var(--step-1);
+}
+
+h4,
+.h4 {
+    font-size: var(--step-0);
+}
+
+h5,
+.h5 {
+    font-size: var(--step--2);
+}
+
 }
 
 .flex_center {
@@ -197,6 +224,7 @@ section#hero {
 section#about {
     background-color: #ffffff;
     color: #000000;
+    margin-bottom: 50px;
 }
 
 section#work {
@@ -264,6 +292,16 @@ ul li a:hover{
 
 }
 
+@media (max-width: 468px) {
+    .hero_social {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
 /* about section */
 .about_content {
     padding: 3rem 0;
@@ -279,6 +317,29 @@ ul li a:hover{
     .about_content {
         transform: skewX(0deg);
     }
+
+    section#work{
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .skill_logos{
+        width: 250px;
+        overflow: hidden;
+        scrollbar-gutter: auto;
+        scroll-behavior: smooth;
+        scrollbar-width: 0%;
+        text-align: center;
+    }
+
+    .skill_logos i{
+    padding: 0px 5px;
+    font-size: 20px;
+    color: #5494ad;
+    transition: 0.3s ease-in-out;
+}
+
 }
 
 .about_figure {
@@ -384,7 +445,6 @@ section#footer {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    background-color: #000000;
     align-content: center;
     align-items: center;
 }
@@ -407,6 +467,14 @@ section#footer {
     justify-content: space-around;
     background-color: black;
 
+}
+
+@media (max-width: 500px) { 
+    .last{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 .btn {
