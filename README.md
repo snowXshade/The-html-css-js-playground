@@ -27,7 +27,7 @@ This repository showcases my personal journey in learning frontend web developme
 
 ## 🌐 Live Demo
 
-➡️ [View To-Do List on GitHub Pages](https://snowxshade.github.io/The-html-css-js-playground/)  
+➡️ [View To-Do List on GitHub Pages](https://snowxshade.github.io/The-html-css-js-playground/)  [status : unpublished]
 
 
 
