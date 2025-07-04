@@ -15,6 +15,7 @@ This repository showcases my personal journey in learning frontend web developme
 ## 📂 Projects
 
 - `01-todo-list/` — A simple to-do list app with add, complete, and delete functionality.
+- `02-Portfolio/` - A simple portfolio with HTML, CSS and JS
 
 
 
