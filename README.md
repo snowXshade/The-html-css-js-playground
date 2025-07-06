@@ -28,11 +28,15 @@ This repository showcases my personal journey in learning frontend web developme
 
 ## To run in your localhost:
 
-~ git clone https://github.com/snowXshade/The-html-css-js-playground.git
-cd The-html-css-js-playground
-npm install
-npm start
+> git clone https://github.com/snowXshade/The-html-css-js-playground.git
+> cd The-html-css-js-playground
+> npm install
+> npm start
 
+    <html>
+      <head>
+        <title>Test</title>
+     </head>
 
 
 ## 🌐 Live Demo
