@@ -42,8 +42,8 @@ header {
 }
 
 .site_header_nav {
-    padding: 10px 0px;
-    height: 40px;
+    padding: 3px 0px;
+    height: 45px;
     display: flex;
     align-items: center;
 }
@@ -70,6 +70,18 @@ header {
 .list a {
     text-decoration: none;
     color: aliceblue;
+    transition: 0.3s ease-in-out;
+}
+
+.list li a:hover{
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+    text-rendering: optimizeSpeed;
+}
+
+.list-other li a svg:hover{
+    fill: rgba(198, 164, 255, 0.825);
+    transition: 0.3s ease-in-out;
 }
 
 .flex-column {
@@ -261,12 +273,6 @@ section#footer {
 .site_header_nav ul li a {
     text-decoration: none;
     color: #fff;
-    transition: 0.3s ease-in-out;
-}
-
-ul li a:hover{
-    translate:0 2px ;
-    transition: 0.3s ease-in-out;
 }
 
 .w-50{
