@@ -15,6 +15,7 @@ This repository showcases my personal journey in learning frontend web developme
 ## 📂 Projects
 
 - `01-todo-list/` — A simple to-do list app with add, complete, and delete functionality.
+- `02-Portfolio/` - A simple portfolio with HTML, CSS and JS
 
 
 
@@ -25,9 +26,19 @@ This repository showcases my personal journey in learning frontend web developme
 
 
 
+## 🌐︎ To run in your localhost:
+> bash
+
+     git clone https://github.com/snowXshade/The-html-css-js-playground.git
+     cd The-html-css-js-playground
+     npm install
+     npm start
+
+
+
 ## 🌐 Live Demo
 
-➡️ [View To-Do List on GitHub Pages](https://snowxshade.github.io/The-html-css-js-playground/)  
+➡️ [View To-Do List on GitHub Pages](https://snowxshade.github.io/The-html-css-js-playground/)  [status : unpublished]
 
 
 
