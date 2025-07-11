@@ -70,20 +70,47 @@ body {
     text-align: center;
 }
 
-.lists{
+.lists{ 
+width: 100%;
 display: flex;
-justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 30px;
+border: 1px solid white;
 }
 
-#ul li{
+ul{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+ul li{
     list-style-type: none;
-    font-size: 17px;
 }
 
-#list{
-    display: block;
+.list-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
 }
 
+.delbtn, .donebtn {
+  cursor: pointer;
+  color: red;
+}
+
+.donebtn {
+  color: green;
+}
+
+
+/* OTHER LINKS STYLING */
 .test{
     position: relative;
     text-decoration: none;
